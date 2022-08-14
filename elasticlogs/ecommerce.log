@@ -1,0 +1,239 @@
+[2022-07-31T02:06:23,075][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [2.2h/7935329ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T05:07:04,031][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [3h/10801795ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T13:12:45,416][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] version[7.17.4], pid[513], build[default/tar/79878662c54c886ae89206c685d9f1051a9d6411/2022-05-18T18:04:20.964345128Z], OS[Mac OS X/10.15.7/x86_64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/18.0.1.1/18.0.1.1+2-6]
+[2022-07-31T13:12:45,516][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] JVM home [/usr/local/Cellar/elasticsearch-full/7.17.4/libexec/jdk.app/Contents/Home], using bundled JDK [true]
+[2022-07-31T13:12:45,517][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] JVM arguments [-Xshare:auto, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -Djava.security.manager=allow, -XX:+UseG1GC, -Djava.io.tmpdir=/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=/usr/local/var/log/elasticsearch/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms8192m, -Xmx8192m, -XX:MaxDirectMemorySize=4294967296, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=25, -Des.path.home=/usr/local/Cellar/elasticsearch-full/7.17.4/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2022-07-31T13:12:50,896][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [aggs-matrix-stats]
+[2022-07-31T13:12:50,896][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [analysis-common]
+[2022-07-31T13:12:50,897][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [constant-keyword]
+[2022-07-31T13:12:50,897][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [frozen-indices]
+[2022-07-31T13:12:50,897][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [ingest-common]
+[2022-07-31T13:12:50,897][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [ingest-geoip]
+[2022-07-31T13:12:50,898][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [ingest-user-agent]
+[2022-07-31T13:12:50,898][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [kibana]
+[2022-07-31T13:12:50,898][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [lang-expression]
+[2022-07-31T13:12:50,898][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [lang-mustache]
+[2022-07-31T13:12:50,899][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [lang-painless]
+[2022-07-31T13:12:50,899][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [legacy-geo]
+[2022-07-31T13:12:50,899][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [mapper-extras]
+[2022-07-31T13:12:50,899][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [mapper-version]
+[2022-07-31T13:12:50,900][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [parent-join]
+[2022-07-31T13:12:50,900][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [percolator]
+[2022-07-31T13:12:50,900][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [rank-eval]
+[2022-07-31T13:12:50,900][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [reindex]
+[2022-07-31T13:12:50,901][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [repositories-metering-api]
+[2022-07-31T13:12:50,901][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [repository-encrypted]
+[2022-07-31T13:12:50,901][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [repository-url]
+[2022-07-31T13:12:50,901][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [runtime-fields-common]
+[2022-07-31T13:12:50,902][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [search-business-rules]
+[2022-07-31T13:12:50,902][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [searchable-snapshots]
+[2022-07-31T13:12:50,902][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [snapshot-repo-test-kit]
+[2022-07-31T13:12:50,902][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [spatial]
+[2022-07-31T13:12:50,902][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [transform]
+[2022-07-31T13:12:50,903][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [transport-netty4]
+[2022-07-31T13:12:50,903][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [unsigned-long]
+[2022-07-31T13:12:50,903][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [vector-tile]
+[2022-07-31T13:12:50,903][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [vectors]
+[2022-07-31T13:12:50,903][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [wildcard]
+[2022-07-31T13:12:50,904][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-aggregate-metric]
+[2022-07-31T13:12:50,904][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-analytics]
+[2022-07-31T13:12:50,904][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-async]
+[2022-07-31T13:12:50,904][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-async-search]
+[2022-07-31T13:12:50,904][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-autoscaling]
+[2022-07-31T13:12:50,905][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ccr]
+[2022-07-31T13:12:50,905][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-core]
+[2022-07-31T13:12:50,905][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-data-streams]
+[2022-07-31T13:12:50,905][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-deprecation]
+[2022-07-31T13:12:50,905][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-enrich]
+[2022-07-31T13:12:50,906][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-eql]
+[2022-07-31T13:12:50,906][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-fleet]
+[2022-07-31T13:12:50,906][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-graph]
+[2022-07-31T13:12:50,906][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-identity-provider]
+[2022-07-31T13:12:50,906][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ilm]
+[2022-07-31T13:12:50,907][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-logstash]
+[2022-07-31T13:12:50,907][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ml]
+[2022-07-31T13:12:50,907][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-monitoring]
+[2022-07-31T13:12:50,907][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ql]
+[2022-07-31T13:12:50,908][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-rollup]
+[2022-07-31T13:12:50,908][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-security]
+[2022-07-31T13:12:50,908][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-shutdown]
+[2022-07-31T13:12:50,908][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-sql]
+[2022-07-31T13:12:50,908][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-stack]
+[2022-07-31T13:12:50,909][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-text-structure]
+[2022-07-31T13:12:50,909][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-voting-only-node]
+[2022-07-31T13:12:50,909][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-watcher]
+[2022-07-31T13:12:50,909][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] no plugins loaded
+[2022-07-31T13:12:50,950][INFO ][o.e.e.NodeEnvironment    ] [Satyams-MacBook-Pro.local] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s1)]], net usable_space [192.1gb], net total_space [233.4gb], types [apfs]
+[2022-07-31T13:12:50,950][INFO ][o.e.e.NodeEnvironment    ] [Satyams-MacBook-Pro.local] heap size [8gb], compressed ordinary object pointers [true]
+[2022-07-31T13:12:51,034][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] node name [Satyams-MacBook-Pro.local], node ID [n49UR13mS8u6k0aqj6gPwg], cluster name [ecommerce], roles [transform, data_frozen, master, remote_cluster_client, data, ml, data_content, data_hot, data_warm, data_cold, ingest]
+[2022-07-31T13:12:55,360][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [Satyams-MacBook-Pro.local] [controller/619] [Main.cc@122] controller (64 bit): Version 7.17.4 (Build 57e42dc012e06b) Copyright (c) 2022 Elasticsearch BV
+[2022-07-31T13:12:55,943][INFO ][o.e.x.s.a.s.FileRolesStore] [Satyams-MacBook-Pro.local] parsed [0] roles from file [/usr/local/etc/elasticsearch/roles.yml]
+[2022-07-31T13:12:56,948][INFO ][o.e.i.g.ConfigDatabases  ] [Satyams-MacBook-Pro.local] initialized default databases [[GeoLite2-Country.mmdb, GeoLite2-City.mmdb, GeoLite2-ASN.mmdb]], config databases [[]] and watching [/usr/local/etc/elasticsearch/ingest-geoip] for changes
+[2022-07-31T13:12:56,949][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] initialized database registry, using geoip-databases directory [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg]
+[2022-07-31T13:12:57,632][INFO ][o.e.t.NettyAllocator     ] [Satyams-MacBook-Pro.local] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2022-07-31T13:12:57,664][INFO ][o.e.i.r.RecoverySettings ] [Satyams-MacBook-Pro.local] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2022-07-31T13:12:57,707][INFO ][o.e.d.DiscoveryModule    ] [Satyams-MacBook-Pro.local] using discovery type [zen] and seed hosts providers [settings]
+[2022-07-31T13:12:58,207][INFO ][o.e.g.DanglingIndicesState] [Satyams-MacBook-Pro.local] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2022-07-31T13:12:58,861][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] initialized
+[2022-07-31T13:12:58,862][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] starting ...
+[2022-07-31T13:12:58,908][INFO ][o.e.x.s.c.f.PersistentCache] [Satyams-MacBook-Pro.local] persistent cache index loaded
+[2022-07-31T13:12:58,909][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [Satyams-MacBook-Pro.local] deprecation component started
+[2022-07-31T13:13:04,070][INFO ][o.e.t.TransportService   ] [Satyams-MacBook-Pro.local] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2022-07-31T13:13:04,446][WARN ][o.e.b.BootstrapChecks    ] [Satyams-MacBook-Pro.local] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2022-07-31T13:13:04,448][INFO ][o.e.c.c.Coordinator      ] [Satyams-MacBook-Pro.local] cluster UUID [jXpfO4yoRxiiG_-h2cUPRg]
+[2022-07-31T13:13:04,459][INFO ][o.e.c.c.ClusterBootstrapService] [Satyams-MacBook-Pro.local] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2022-07-31T13:13:04,573][INFO ][o.e.c.s.MasterService    ] [Satyams-MacBook-Pro.local] elected-as-master ([1] nodes joined)[{Satyams-MacBook-Pro.local}{n49UR13mS8u6k0aqj6gPwg}{b_7BZFQRToqY8xwYfPMDWA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 2, version: 62, delta: master node changed {previous [], current [{Satyams-MacBook-Pro.local}{n49UR13mS8u6k0aqj6gPwg}{b_7BZFQRToqY8xwYfPMDWA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}
+[2022-07-31T13:13:04,654][INFO ][o.e.c.s.ClusterApplierService] [Satyams-MacBook-Pro.local] master node changed {previous [], current [{Satyams-MacBook-Pro.local}{n49UR13mS8u6k0aqj6gPwg}{b_7BZFQRToqY8xwYfPMDWA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}, term: 2, version: 62, reason: Publication{term=2, version=62}
+[2022-07-31T13:13:04,701][INFO ][o.e.h.AbstractHttpServerTransport] [Satyams-MacBook-Pro.local] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2022-07-31T13:13:04,702][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] started
+[2022-07-31T13:13:04,988][INFO ][o.e.l.LicenseService     ] [Satyams-MacBook-Pro.local] license [7c355db6-2e4a-4add-ac31-95d699ec898d] mode [basic] - valid
+[2022-07-31T13:13:04,989][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [Satyams-MacBook-Pro.local] Active license is now [BASIC]; Security is disabled
+[2022-07-31T13:13:04,990][WARN ][o.e.x.s.s.SecurityStatusChangeListener] [Satyams-MacBook-Pro.local] Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+[2022-07-31T13:13:04,997][INFO ][o.e.g.GatewayService     ] [Satyams-MacBook-Pro.local] recovered [4] indices into cluster_state
+[2022-07-31T13:13:05,606][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] updating geoip databases
+[2022-07-31T13:13:05,607][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] fetching geoip databases overview from [https://geoip.elastic.co/v1/database?elastic_geoip_service_tos=agree]
+[2022-07-31T13:13:05,714][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-Country.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb.tmp.gz]
+[2022-07-31T13:13:05,716][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-ASN.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb.tmp.gz]
+[2022-07-31T13:13:05,716][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-City.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb.tmp.gz]
+[2022-07-31T13:13:06,028][INFO ][o.e.c.r.a.AllocationService] [Satyams-MacBook-Pro.local] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.ds-ilm-history-5-2022.07.30-000001][0]]]).
+[2022-07-31T13:13:06,201][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb]
+[2022-07-31T13:13:06,230][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb]
+[2022-07-31T13:13:07,013][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb]
+[2022-07-31T13:13:08,431][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-ASN.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb.tmp.gz]
+[2022-07-31T13:13:08,442][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] successfully downloaded geoip database [GeoLite2-ASN.mmdb]
+[2022-07-31T13:13:08,545][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [Satyams-MacBook-Pro.local] evicted [0] entries from cache after reloading database [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb]
+[2022-07-31T13:13:08,545][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb]
+[2022-07-31T13:13:11,877][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-City.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb.tmp.gz]
+[2022-07-31T13:13:11,892][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] successfully downloaded geoip database [GeoLite2-City.mmdb]
+[2022-07-31T13:13:13,017][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [Satyams-MacBook-Pro.local] evicted [0] entries from cache after reloading database [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb]
+[2022-07-31T13:13:13,018][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb]
+[2022-07-31T13:13:13,125][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-Country.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb.tmp.gz]
+[2022-07-31T13:13:13,134][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] successfully downloaded geoip database [GeoLite2-Country.mmdb]
+[2022-07-31T13:13:13,195][INFO ][o.e.i.g.DatabaseReaderLazyLoader] [Satyams-MacBook-Pro.local] evicted [0] entries from cache after reloading database [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb]
+[2022-07-31T13:13:13,195][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-16468052731185181785/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb]
+[2022-07-31T14:06:10,007][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [51s/51005ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T14:06:10,659][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] absolute clock went backwards by [185ms/185ms] while timer thread was sleeping
+[2022-07-31T15:20:22,007][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [5.6m/340109ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T15:34:07,006][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [1m/63061ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T15:43:47,058][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [5.7m/342690ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T15:57:37,007][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [11.1m/670355ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T15:57:38,735][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] absolute clock went backwards by [267ms/267ms] while timer thread was sleeping
+[2022-07-31T16:03:57,390][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] version[7.17.4], pid[515], build[default/tar/79878662c54c886ae89206c685d9f1051a9d6411/2022-05-18T18:04:20.964345128Z], OS[Mac OS X/10.15.7/x86_64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/18.0.1.1/18.0.1.1+2-6]
+[2022-07-31T16:03:57,487][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] JVM home [/usr/local/Cellar/elasticsearch-full/7.17.4/libexec/jdk.app/Contents/Home], using bundled JDK [true]
+[2022-07-31T16:03:57,498][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] JVM arguments [-Xshare:auto, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -Djava.security.manager=allow, -XX:+UseG1GC, -Djava.io.tmpdir=/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=/usr/local/var/log/elasticsearch/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms8192m, -Xmx8192m, -XX:MaxDirectMemorySize=4294967296, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=25, -Des.path.home=/usr/local/Cellar/elasticsearch-full/7.17.4/libexec, -Des.path.conf=/usr/local/etc/elasticsearch, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2022-07-31T16:04:16,602][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [aggs-matrix-stats]
+[2022-07-31T16:04:16,610][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [analysis-common]
+[2022-07-31T16:04:16,611][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [constant-keyword]
+[2022-07-31T16:04:16,612][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [frozen-indices]
+[2022-07-31T16:04:16,613][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [ingest-common]
+[2022-07-31T16:04:16,613][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [ingest-geoip]
+[2022-07-31T16:04:16,614][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [ingest-user-agent]
+[2022-07-31T16:04:16,614][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [kibana]
+[2022-07-31T16:04:16,615][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [lang-expression]
+[2022-07-31T16:04:16,616][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [lang-mustache]
+[2022-07-31T16:04:16,616][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [lang-painless]
+[2022-07-31T16:04:16,617][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [legacy-geo]
+[2022-07-31T16:04:16,618][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [mapper-extras]
+[2022-07-31T16:04:16,619][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [mapper-version]
+[2022-07-31T16:04:16,620][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [parent-join]
+[2022-07-31T16:04:16,621][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [percolator]
+[2022-07-31T16:04:16,622][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [rank-eval]
+[2022-07-31T16:04:16,623][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [reindex]
+[2022-07-31T16:04:16,624][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [repositories-metering-api]
+[2022-07-31T16:04:16,625][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [repository-encrypted]
+[2022-07-31T16:04:16,625][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [repository-url]
+[2022-07-31T16:04:16,626][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [runtime-fields-common]
+[2022-07-31T16:04:16,636][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [search-business-rules]
+[2022-07-31T16:04:16,637][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [searchable-snapshots]
+[2022-07-31T16:04:16,637][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [snapshot-repo-test-kit]
+[2022-07-31T16:04:16,637][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [spatial]
+[2022-07-31T16:04:16,637][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [transform]
+[2022-07-31T16:04:16,638][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [transport-netty4]
+[2022-07-31T16:04:16,638][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [unsigned-long]
+[2022-07-31T16:04:16,639][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [vector-tile]
+[2022-07-31T16:04:16,640][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [vectors]
+[2022-07-31T16:04:16,640][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [wildcard]
+[2022-07-31T16:04:16,641][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-aggregate-metric]
+[2022-07-31T16:04:16,642][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-analytics]
+[2022-07-31T16:04:16,642][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-async]
+[2022-07-31T16:04:16,643][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-async-search]
+[2022-07-31T16:04:16,643][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-autoscaling]
+[2022-07-31T16:04:16,644][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ccr]
+[2022-07-31T16:04:16,644][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-core]
+[2022-07-31T16:04:16,644][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-data-streams]
+[2022-07-31T16:04:16,645][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-deprecation]
+[2022-07-31T16:04:16,645][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-enrich]
+[2022-07-31T16:04:16,645][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-eql]
+[2022-07-31T16:04:16,646][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-fleet]
+[2022-07-31T16:04:16,646][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-graph]
+[2022-07-31T16:04:16,646][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-identity-provider]
+[2022-07-31T16:04:16,647][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ilm]
+[2022-07-31T16:04:16,647][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-logstash]
+[2022-07-31T16:04:16,647][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ml]
+[2022-07-31T16:04:16,648][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-monitoring]
+[2022-07-31T16:04:16,648][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-ql]
+[2022-07-31T16:04:16,648][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-rollup]
+[2022-07-31T16:04:16,648][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-security]
+[2022-07-31T16:04:16,649][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-shutdown]
+[2022-07-31T16:04:16,649][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-sql]
+[2022-07-31T16:04:16,649][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-stack]
+[2022-07-31T16:04:16,650][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-text-structure]
+[2022-07-31T16:04:16,650][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-voting-only-node]
+[2022-07-31T16:04:16,650][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] loaded module [x-pack-watcher]
+[2022-07-31T16:04:16,651][INFO ][o.e.p.PluginsService     ] [Satyams-MacBook-Pro.local] no plugins loaded
+[2022-07-31T16:04:17,208][INFO ][o.e.e.NodeEnvironment    ] [Satyams-MacBook-Pro.local] using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk1s1)]], net usable_space [192.4gb], net total_space [233.4gb], types [apfs]
+[2022-07-31T16:04:17,211][INFO ][o.e.e.NodeEnvironment    ] [Satyams-MacBook-Pro.local] heap size [8gb], compressed ordinary object pointers [true]
+[2022-07-31T16:04:17,538][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] node name [Satyams-MacBook-Pro.local], node ID [n49UR13mS8u6k0aqj6gPwg], cluster name [ecommerce], roles [transform, data_frozen, master, remote_cluster_client, data, ml, data_content, data_hot, data_warm, data_cold, ingest]
+[2022-07-31T16:04:23,916][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [Satyams-MacBook-Pro.local] [controller/771] [Main.cc@122] controller (64 bit): Version 7.17.4 (Build 57e42dc012e06b) Copyright (c) 2022 Elasticsearch BV
+[2022-07-31T16:04:24,636][INFO ][o.e.x.s.a.s.FileRolesStore] [Satyams-MacBook-Pro.local] parsed [0] roles from file [/usr/local/etc/elasticsearch/roles.yml]
+[2022-07-31T16:04:25,588][INFO ][o.e.i.g.ConfigDatabases  ] [Satyams-MacBook-Pro.local] initialized default databases [[GeoLite2-Country.mmdb, GeoLite2-City.mmdb, GeoLite2-ASN.mmdb]], config databases [[]] and watching [/usr/local/etc/elasticsearch/ingest-geoip] for changes
+[2022-07-31T16:04:25,590][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] initialized database registry, using geoip-databases directory [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg]
+[2022-07-31T16:04:28,367][INFO ][o.e.t.NettyAllocator     ] [Satyams-MacBook-Pro.local] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2022-07-31T16:04:28,457][INFO ][o.e.i.r.RecoverySettings ] [Satyams-MacBook-Pro.local] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2022-07-31T16:04:28,524][INFO ][o.e.d.DiscoveryModule    ] [Satyams-MacBook-Pro.local] using discovery type [zen] and seed hosts providers [settings]
+[2022-07-31T16:04:29,403][INFO ][o.e.g.DanglingIndicesState] [Satyams-MacBook-Pro.local] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2022-07-31T16:04:30,668][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] initialized
+[2022-07-31T16:04:30,669][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] starting ...
+[2022-07-31T16:04:30,718][INFO ][o.e.x.s.c.f.PersistentCache] [Satyams-MacBook-Pro.local] persistent cache index loaded
+[2022-07-31T16:04:30,719][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [Satyams-MacBook-Pro.local] deprecation component started
+[2022-07-31T16:04:36,323][INFO ][o.e.t.TransportService   ] [Satyams-MacBook-Pro.local] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2022-07-31T16:04:39,480][WARN ][o.e.b.BootstrapChecks    ] [Satyams-MacBook-Pro.local] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2022-07-31T16:04:39,516][INFO ][o.e.c.c.Coordinator      ] [Satyams-MacBook-Pro.local] cluster UUID [jXpfO4yoRxiiG_-h2cUPRg]
+[2022-07-31T16:04:39,765][INFO ][o.e.c.c.ClusterBootstrapService] [Satyams-MacBook-Pro.local] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2022-07-31T16:04:40,259][INFO ][o.e.c.s.MasterService    ] [Satyams-MacBook-Pro.local] elected-as-master ([1] nodes joined)[{Satyams-MacBook-Pro.local}{n49UR13mS8u6k0aqj6gPwg}{wgA8f-x-TjOzNa93TDVCmA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 3, version: 75, delta: master node changed {previous [], current [{Satyams-MacBook-Pro.local}{n49UR13mS8u6k0aqj6gPwg}{wgA8f-x-TjOzNa93TDVCmA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}
+[2022-07-31T16:04:40,389][INFO ][o.e.c.s.ClusterApplierService] [Satyams-MacBook-Pro.local] master node changed {previous [], current [{Satyams-MacBook-Pro.local}{n49UR13mS8u6k0aqj6gPwg}{wgA8f-x-TjOzNa93TDVCmA}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}, term: 3, version: 75, reason: Publication{term=3, version=75}
+[2022-07-31T16:04:40,458][INFO ][o.e.h.AbstractHttpServerTransport] [Satyams-MacBook-Pro.local] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2022-07-31T16:04:40,459][INFO ][o.e.n.Node               ] [Satyams-MacBook-Pro.local] started
+[2022-07-31T16:04:40,920][INFO ][o.e.l.LicenseService     ] [Satyams-MacBook-Pro.local] license [7c355db6-2e4a-4add-ac31-95d699ec898d] mode [basic] - valid
+[2022-07-31T16:04:40,922][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [Satyams-MacBook-Pro.local] Active license is now [BASIC]; Security is disabled
+[2022-07-31T16:04:40,923][WARN ][o.e.x.s.s.SecurityStatusChangeListener] [Satyams-MacBook-Pro.local] Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.17/security-minimal-setup.html to enable security.
+[2022-07-31T16:04:40,932][INFO ][o.e.g.GatewayService     ] [Satyams-MacBook-Pro.local] recovered [4] indices into cluster_state
+[2022-07-31T16:04:42,617][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] updating geoip databases
+[2022-07-31T16:04:42,618][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] fetching geoip databases overview from [https://geoip.elastic.co/v1/database?elastic_geoip_service_tos=agree]
+[2022-07-31T16:04:43,624][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-Country.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb.tmp.gz]
+[2022-07-31T16:04:43,626][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-ASN.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb.tmp.gz]
+[2022-07-31T16:04:43,627][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] retrieve geoip database [GeoLite2-City.mmdb] from [.geoip_databases] to [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb.tmp.gz]
+[2022-07-31T16:04:43,659][INFO ][o.e.c.r.a.AllocationService] [Satyams-MacBook-Pro.local] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.ds-ilm-history-5-2022.07.30-000001][0], [.ds-.logs-deprecation.elasticsearch-default-2022.07.30-000001][0]]]).
+[2022-07-31T16:04:44,170][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-Country.mmdb]
+[2022-07-31T16:04:44,191][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-ASN.mmdb]
+[2022-07-31T16:04:44,793][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] geoip database [GeoLite2-ASN.mmdb] is up to date, updated timestamp
+[2022-07-31T16:04:45,034][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] geoip database [GeoLite2-City.mmdb] is up to date, updated timestamp
+[2022-07-31T16:04:45,268][INFO ][o.e.i.g.GeoIpDownloader  ] [Satyams-MacBook-Pro.local] geoip database [GeoLite2-Country.mmdb] is up to date, updated timestamp
+[2022-07-31T16:04:45,314][INFO ][o.e.i.g.DatabaseNodeService] [Satyams-MacBook-Pro.local] successfully reloaded changed geoip database file [/var/folders/bc/343g738j03j37b8b29cg3sc00000gn/T/elasticsearch-2561978431152806683/geoip-databases/n49UR13mS8u6k0aqj6gPwg/GeoLite2-City.mmdb]
+[2022-07-31T16:08:32,056][INFO ][o.e.c.m.MetadataMappingService] [Satyams-MacBook-Pro.local] [index/SHMuKG7DRYK31iVI-H_JRA] update_mapping [_doc]
+[2022-07-31T17:09:44,013][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [32.6m/1958961ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T18:20:22,007][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [1.1h/4186630ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T18:45:47,011][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [25m/1501210ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T18:45:49,858][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] absolute clock went backwards by [53ms/53ms] while timer thread was sleeping
+[2022-07-31T19:10:47,883][INFO ][o.e.c.m.MetadataMappingService] [Satyams-MacBook-Pro.local] [index/SHMuKG7DRYK31iVI-H_JRA] update_mapping [_doc]
+[2022-07-31T19:31:01,008][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [2.7m/162893ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T20:12:37,027][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [39m/2340558ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T20:16:14,009][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [30.3s/30385ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T20:20:05,009][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [45.3s/45302ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T20:23:40,018][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [37s/37081ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T20:31:05,018][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [2.1m/130567ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T20:36:12,011][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [2.1m/127825ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T21:33:42,009][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [54.5m/3273489ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T22:03:35,008][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [28.4m/1705460ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T22:16:49,008][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [11.3m/678158ms] on absolute clock which is above the warn threshold of [5000ms]
+[2022-07-31T22:37:33,009][WARN ][o.e.t.ThreadPool         ] [Satyams-MacBook-Pro.local] timer thread slept for [17.9m/1075911ms] on absolute clock which is above the warn threshold of [5000ms]
